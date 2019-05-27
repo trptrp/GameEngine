@@ -8,9 +8,6 @@ namespace My
         /* data */
         bool m_bQuit;
     public:
-        BaseApplication(/* args */);
-        ~BaseApplication();
-
         virtual int Initialize();
         virtual void Finalize();
         // One cycle of the main loop
