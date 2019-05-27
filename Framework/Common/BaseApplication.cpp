@@ -11,6 +11,11 @@ void My::BaseApplication::Finalize()
     return;
 }
 
+void My::BaseApplication::Tick()
+{
+    return;
+}
+
 bool My::BaseApplication::IsQuit()
 {
     return m_bQuit;
